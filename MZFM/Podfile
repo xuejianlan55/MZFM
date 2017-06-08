@@ -1,0 +1,19 @@
+
+# platform :ios, '9.0'
+
+target 'MZFM' do
+  use_frameworks!
+
+  pod 'MZXX'
+
+  target 'MZFMTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MZFMUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
